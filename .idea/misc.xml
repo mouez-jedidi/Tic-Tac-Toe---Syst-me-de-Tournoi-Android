@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/bg_gradient.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/bg_gradient_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/button_info.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/button_play.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/button_primary.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/button_scores.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/button_scores_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/button_secondary.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/card_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/grid_button.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/grid_button_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.124" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/radio_button_selector.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/radio_o_selector.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/radio_x_selector.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/score_null_bg.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/score_null_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/score_o_bg.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/score_o_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/score_x_bg.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/spinner_background.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/spinner_modern.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/drawable/turn_indicator.xml" value="0.1895" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/layout/activity_game.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/layout/activity_main.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/LENOVO/Desktop/projet android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.124" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

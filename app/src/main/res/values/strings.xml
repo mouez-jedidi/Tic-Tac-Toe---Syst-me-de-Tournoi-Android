@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Jeu X-O</string>
+    <string name="jouer">🎮 Jouer</string>
+    <string name="principe">📖 Principe du jeu</string>
+    <string name="choisir_symbole">Choisir votre symbole :</string>
+    <string name="nombre_parties">Nombre de parties :</string>
+    <string name="retrouver_scores">📊 Dernier Tournoi</string>
+    <string name="partie">Partie %1$d / %2$d</string>
+    <string name="score_x">Joueur X : %1$d</string>
+    <string name="score_o">Joueur O : %1$d</string>
+    <string name="nulles">Nulles : %1$d</string>
+    <string name="victoire_x">🎉 Victoire du Joueur X !</string>
+    <string name="victoire_o">🎉 Victoire du Joueur O !</string>
+    <string name="egalite">🤝 Égalité Parfaite !</string>
+    <string name="partie_nulle">Match Nul !</string>
+    <string name="sauvegarder">💾 Sauvegarder</string>
+    <string name="retour_accueil">🏠 Accueil</string>
+    <string name="principe_texte">Le jeu X-O se joue sur une grille de 3×3 cases.\n\nDeux joueurs s\'affrontent : l\'un choisit X et l\'autre O.\n\nÀ tour de rôle, chaque joueur place son symbole dans une case vide.\n\nPour gagner : alignez 3 symboles identiques (ligne, colonne ou diagonale) !\n\n🏆 Le tournoi accumule les scores sur plusieurs parties.</string>
+    <string name="aucun_tournoi">Aucun tournoi sauvegardé</string>
+    <string name="tournoi_sauvegarde">✅ Tournoi sauvegardé !</string>
+</resources>

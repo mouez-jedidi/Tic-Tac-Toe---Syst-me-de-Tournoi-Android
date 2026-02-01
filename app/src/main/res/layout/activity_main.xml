@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_modern"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center">
+
+        <!-- Logo et Titre -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭕❌"
+                android:textSize="64sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIC TAC TOE"
+                android:textSize="42sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:letterSpacing="0.1"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="4"
+                android:shadowRadius="8"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tournoi Ultime"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:alpha="0.9"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <!-- Card des options -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_modern"
+            android:padding="24dp"
+            android:layout_marginTop="10dp"
+            android:elevation="12dp">
+
+            <!-- Choix du symbole -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🎮 CHOISISSEZ VOTRE SYMBOLE"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:letterSpacing="0.05"/>
+
+            <RadioGroup
+                android:id="@+id/radioGroupSymbole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:gravity="center">
+
+                <RadioButton
+                    android:id="@+id/radioX"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="80dp"
+                    android:text="❌ X"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:button="@null"
+                    android:background="@drawable/radio_x_selector"
+                    android:gravity="center"
+                    android:layout_marginEnd="12dp"/>
+
+                <RadioButton
+                    android:id="@+id/radioO"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="80dp"
+                    android:text="⭕ O"
+                    android:textSize="28sp"
+                    android:textStyle="bold"
+                    android:button="@null"
+                    android:background="@drawable/radio_o_selector"
+                    android:gravity="center"
+                    android:layout_marginStart="12dp"/>
+            </RadioGroup>
+
+            <!-- Divider -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grid_line"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"/>
+
+            <!-- Sélecteur de parties -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🏆 NOMBRE DE PARTIES"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:letterSpacing="0.05"/>
+
+            <Spinner
+                android:id="@+id/spinnerParties"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/spinner_modern"
+                android:padding="16dp"
+                android:popupBackground="@color/white"/>
+
+        </LinearLayout>
+
+        <!-- Boutons d'action -->
+        <Button
+            android:id="@+id/btnJouer"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="🎮 JOUER"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:background="@drawable/button_play"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp"
+            android:elevation="8dp"
+            android:stateListAnimator="@null"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnPrincipe"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="56dp"
+                android:text="📖 RÈGLES"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_info"
+                android:textColor="@color/white"
+                android:layout_marginEnd="8dp"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"/>
+
+            <Button
+                android:id="@+id/btnRetrouverScores"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="56dp"
+                android:text="📊 SCORES"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_scores_modern"
+                android:textColor="@color/white"
+                android:layout_marginStart="8dp"
+                android:elevation="6dp"
+                android:stateListAnimator="@null"/>
+        </LinearLayout>
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Créé avec ❤️ pour le plaisir"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:alpha="0.7"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
